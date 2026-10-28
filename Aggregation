@@ -1,0 +1,12 @@
+# Aggregation
+class Book:
+    pass
+
+class Library:
+    def __init__(self, book):
+        self.book = book
+
+b = Book()
+library = Library(b)
+
+print(library.book)

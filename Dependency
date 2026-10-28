@@ -1,0 +1,11 @@
+# Dependency
+class Document:
+    pass
+
+class Printer:
+    def print_doc(self, doc):
+        print("Printing document")
+
+printer = Printer()
+document = Document()
+printer.print_doc(document)

@@ -1,0 +1,11 @@
+# Association
+class Order:
+    pass
+
+class Customer:
+    def place_order(self, order):
+        print("Order placed")
+
+customer = Customer()
+order = Order()
+customer.place_order(order)
