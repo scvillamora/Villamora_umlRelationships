@@ -7,3 +7,4 @@ person1 = Person("Lina", 20)
 
 print(f"{person1.name}")
 print(f"{person1.age}")
+print()
